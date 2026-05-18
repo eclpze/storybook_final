@@ -1,0 +1,52 @@
+name: storybook
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  vize: ^1.0.3
+  flutter_svg: ^2.3.0
+  dropdown_button2: ^3.1.0
+  smooth_page_indicator: ^2.0.1
+  finalui:
+    git:
+      url: https://github.com/eclpze/uikit.git
+      ref: main
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
